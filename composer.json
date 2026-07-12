@@ -1,1 +1,13 @@
-
+{
+    "name": "filmi/telegram-autopost",
+    "description": "WordPress Movie Auto Poster to Telegram Channel via Render Cron",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Developer"
+        }
+    ]
+}
