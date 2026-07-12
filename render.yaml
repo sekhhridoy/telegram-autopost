@@ -1,6 +1,1 @@
-services:
-  - type: web
-    name: wp-movie-telegram-poster
-    env: php
-    buildCommand: "composer install --no-dev"
-    startCommand: "apache2-foreground"
+
