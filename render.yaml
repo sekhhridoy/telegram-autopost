@@ -1,8 +1,6 @@
 services:
-  - type: cron
+  - type: web
     name: wp-movie-telegram-poster
     env: php
-    schedule: "*/5 * * * *" # Runs every 5 minutes
     buildCommand: "composer install --no-dev"
-    startCommand: "php index.php"
-    region: oregon # Change based on your preference
+    startCommand: "apache2-foreground"
